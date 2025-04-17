@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.xyz {
+    background-color: rgb(22, 22, 59);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #fff;
+}
+
+.content {
+    color: white;
+    margin-top: 30px;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.content h4 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.icon,
+.icon2 {
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover,
+.icon2:hover {
+    transform: scale(1.2);
+    color: #55acee;
+}
+
+/* Section Styling */
+#Career {
+    padding: 40px 50px 20px;
+    background-color: #f1f1f8;
+}
+
+#Career h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.collage {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    margin: 10px 0 30px 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+#p2 span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Horizontal Line */
+hr {
+    height: 3px;
+    background: rgb(111, 111, 232);
+    border: none;
+    margin: 15px 0;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(22, 22, 59);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .xyz {
+        padding: 30px 10px;
+    }
+
+    #img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content h3,
+    .content h4 {
+        font-size: 16px;
+    }
+
+    .icon,
+    .icon2 {
+        font-size: 22px;
+    }
+
+    #Career h1 {
+        font-size: 22px;
+    }
+
+    .collage {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
